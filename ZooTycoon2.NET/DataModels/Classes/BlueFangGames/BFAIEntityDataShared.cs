@@ -1,8 +1,9 @@
 ﻿using ZooTycoon2.NET.DataModels.Enums;
+using ZooTycoon2.NET.DataModels.Interfaces;
 
 namespace ZooTycoon2.NET.DataModels.Classes.BlueFangGames
 {
-    public class BFAIEntityDataShared
+    public class BFAIEntityDataShared : IShared
     {
         public Product Product { get; set; }
         public bool Eyedropper { get; set; }

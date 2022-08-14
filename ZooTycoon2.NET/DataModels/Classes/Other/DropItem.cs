@@ -6,5 +6,9 @@ namespace ZooTycoon2.NET.DataModels.Classes.Other
     public class DropItem : IDetachAction
     {
         public DetachActionDestination Destination { get; set; }
+        public DropItem(DetachActionDestination destination)
+        {
+            Destination = destination;
+        }
     }
 }

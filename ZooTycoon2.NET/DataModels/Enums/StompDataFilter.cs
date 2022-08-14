@@ -2,5 +2,8 @@
 {
     public enum StompDataFilter
     {
+        Allow,
+        Delete,
+        Prevent
     }
 }
